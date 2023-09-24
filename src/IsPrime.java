@@ -1,3 +1,12 @@
 public class IsPrime {
+    public static void main(String[] args) {
+        System.out.println("0 is " +  (isPrime(0) ? "" : "Not ") + "a prime number");
+        System.out.println("1 is " +  (isPrime(1) ? "" : "Not ") + "a prime number");
+        System.out.println("2 is " +  (isPrime(2) ? "" : "Not ") + "a prime number");
+        System.out.println("3 is " +  (isPrime(3) ? "" : "Not ") + "a prime number");
+    }
 
+    public static boolean isPrime(int wholeNumber) {
+        return true;
+    }
 }
